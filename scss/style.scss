@@ -1,25 +1,28 @@
 
 @import "./_header.scss";
-@import "./_about.scss";
+@import "./_fonts.scss";
 html {
     font-size: 62.5%;
 }
 body {
-    background-color: blue;
+    background-color: black;
     height: 100%;
 }
-
+h1{
+    color: white;
+}
 .flex-parent {
-    background-color: red;
-    height: 60vh;
+    background-color: #1b1b1b;
+    height: 200vh;
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-evenly;
+    font-size: 1000%;
 }
 .flex-child {
-    background-color: blue;
-    margin: 10px;
-    height: 20vh;
+    background-color: green;
+    margin: 30px;
+    height: 200vh;
     color: white;
 }
 #flex-grow-1 {
