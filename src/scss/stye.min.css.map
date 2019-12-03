@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../scss/stye.scss"
+    ],
+    "names": [],
+    "file": "stye.min.css"
+}
