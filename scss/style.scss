@@ -1,0 +1,33 @@
+
+@import "./_header.scss";
+@import "./_about.scss";
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: blue;
+    height: 100%;
+}
+
+.flex-parent {
+    background-color: red;
+    height: 60vh;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+}
+.flex-child {
+    background-color: blue;
+    margin: 10px;
+    height: 20vh;
+    color: white;
+}
+#flex-grow-1 {
+    flex-grow: 1;
+}
+#flex-grow-2 {
+    flex-grow: 2;
+}
+.flex-sm {
+    background-color: purple;
+}
