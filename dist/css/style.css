@@ -1,9 +1,5 @@
-.header {
-  background-color: pink;
-}
-
-.about {
-  background-color: purple;
+html {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 html {
@@ -11,13 +7,17 @@ html {
 }
 
 body {
-  background-color: pink;
+  background-color: black;
   height: 100%;
 }
 
+h1 {
+  color: white;
+}
+
 .flex-parent {
-  background-color: red;
-  height: 60vh;
+  background-color: #1b1b1b;
+  height: 200vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,12 +28,13 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  font-size: 1000%;
 }
 
 .flex-child {
-  background-color: blue;
-  margin: 10px;
-  height: 20vh;
+  background-color: green;
+  margin: 30px;
+  height: 200vh;
   color: white;
 }
 
