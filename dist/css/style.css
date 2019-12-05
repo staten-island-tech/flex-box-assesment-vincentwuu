@@ -35,7 +35,7 @@ h1 {
   background-color: green;
   margin: 30px;
   height: 200vh;
-  color: white;
+  color: blue;
 }
 
 #flex-grow-1 {
@@ -51,6 +51,7 @@ h1 {
 }
 
 .flex-sm {
-  background-color: purple;
+  background-color: #244eaa;
+  height: 45vh;
 }
 /*# sourceMappingURL=style.css.map */
